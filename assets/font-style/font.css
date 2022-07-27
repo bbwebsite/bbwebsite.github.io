@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PingFang_Medium';
+    src: url('./PingFang-SC-Medium.ttf') format('truetype');
+    font-weight:500;
+    font-style:normal;
+}
+@font-face {
+    font-family: 'Helvetica_Neue';
+    src: url('./Helvetica-Neue.ttf') format('truetype');
+    font-weight:bold;
+    font-style:normal;
+}  

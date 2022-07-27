@@ -1,0 +1,17 @@
+body{
+    font-family: "Helvetica_Neue";
+}
+.advantage-2c .item .item-info{
+    line-height: 20px;
+}
+.advantage-2b .box .item .item-info{
+    width: 480px;
+    margin: 10px auto 0;
+    line-height: 20px;
+}
+.application .box .item .item-info{
+    line-height: 22px;
+}
+.footer .other-info{
+    width: 450px;
+}

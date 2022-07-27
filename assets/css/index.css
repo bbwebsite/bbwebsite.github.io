@@ -1,0 +1,291 @@
+body{
+    color: #333;
+    letter-spacing: 0;
+    font-family: 'PingFang_Medium';
+    min-width: 1200px;
+}
+.container{
+    width: 1200px;
+    min-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+button:focus{
+    box-shadow: none !important;
+}
+.header{
+    width: 100%;
+    height: 80px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.header .container .logo img{
+    height: 50px;
+    margin-top: 15px;
+}
+.header .container .switch-lan{
+    margin-top: 20px;
+}
+.header .container .switch-lan text{
+    font-size: 14px;
+}
+.header .container .switch-lan .dropdown-menu {
+    min-width: 120px;
+}
+.header .container .switch-lan .dropdown-item{
+
+}
+.header .container .switch-lan img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.content{
+}
+.top-banner{
+    height: 570px;
+    background-color: #FBF6FF;
+
+}
+.top-banner .container{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-banner .right img{
+    margin-top: 50px;
+    width: 720px;
+}
+.top-banner .name{
+    margin-top: 110px;
+    font-size: 56px;
+}
+.top-banner .info{
+    font-size: 20px;
+}
+.top-banner .open-to-talk{
+    height: 50px;
+    line-height: 50px;
+    background-image: linear-gradient(270deg, #C611FF 0%, #7D00F6 100%);
+    width: 290px;
+    text-align: center;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 90px;
+}
+.top-banner .open-to-talk a{
+    display: block;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.top-banner .open-to-talk img{
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+} 
+.advantage-2c .container{
+    padding: 0 20px;
+}
+.advantage-2c .title{
+    font-size: 40px;
+    text-align: center;
+    margin: 45px 0;
+}
+.advantage-2c .item{
+    display: flex;
+    height: 380px;
+}
+.advantage-2c .item .left,.advantage-2c .item .right{
+    width: 50%;
+}
+
+.advantage-2c .item .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.advantage-2c .item .img img{
+    width: 300px;
+}
+.advantage-2c .item .word{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.advantage-2c .item .item-title{
+    font-size: 40px;
+}
+.advantage-2c .item .item-info{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.advantage-2b{
+    background: #FBF6FF;
+}
+.advantage-2b .container{
+    /* border: 1px solid red; */
+    padding: 0 10px;
+}
+.advantage-2b .title{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0;
+}
+.advantage-2b .box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.advantage-2b .box .item{
+    width: 50%;
+    min-width: 50%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.advantage-2b .box .item img{
+    width: 150px;
+}
+.advantage-2b .box .item .item-title{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.advantage-2b .box .item .item-info{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #999;
+}
+
+.application .container{
+    padding: 0 20px;
+}
+.application .title{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0;
+}
+.application .box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.application .box .item{
+    width: 50%;
+    min-width: 50%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.application .box .item img{
+    width: 140px;
+}
+.application .box .item .item-info{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.partner{
+    background: url('./../img/partner-bg.png') no-repeat;
+    background-size: 100% auto;
+    background-color: #FBF6FF;
+    height: 750px;
+    background-position: center;
+}
+.partner .container{
+    padding: 0 20px;
+}
+.partner .title{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0;
+}
+.partner .ave-logo{
+    text-align: center;
+}
+.partner .support-program{
+    font-size: 40px;
+    margin: 70px 0;
+    text-align: center;
+}
+.partner .programs{
+    margin-top: 90px;
+}
+.partner .programs>div{
+    display: flex;
+    margin-top: 70px;
+}
+.partner .programs .item{
+    width: 12.5%;
+}
+.partner .programs .item .img-box{
+    width: 50px;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.partner .programs .item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 5px;
+}
+.partner .programs .item .img-box>div{
+    position: absolute;
+    bottom: -30px;
+    left: -15px;
+    width: 90px;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    font-size: 14px;
+    display: none;
+}
+
+.footer .welcome-word{
+    font-size: 24px;
+    padding-top: 60px;
+    text-align: center;
+}
+.footer .contact-way{
+    width: 360px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .contact-way a{
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer .contact-way a img{
+    width: 36px;
+    height: 36px;
+}
+.footer .other-info{
+    width: 380px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+}
+.footer .other-info a{
+    cursor: pointer;
+}
+.footer .copyright{
+    color: #999;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+
+
+
+
+
